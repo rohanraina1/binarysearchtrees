@@ -25,7 +25,7 @@ node* searchbst(node* root, int key)
     {
      return searchbst(root->right,key);
     }
-    return searchbst(root->right,key);
+    return searchbst(root->left,key);
 }
 int main()
 {
